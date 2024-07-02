@@ -960,3 +960,8 @@ const gods = [
       features: [],
     },
   ];
+
+  for (i in gods){
+    console.log(gods[i].name +" "+ gods[i].features.length) 
+}
+  
